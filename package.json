@@ -1,0 +1,57 @@
+{
+  "name": "maskio",
+  "version": "1.0.0",
+  "description": "string and object type data manipulation mask library",
+  "private": false,
+  "main": "lib/maskio.common.js",
+  "types": "types/index.d.ts",
+  "module": "lib/maskio.esm.js",
+  "umd": "lib/maskio.min.js",
+  "jsdelivr": "lib/maskio.min.js",
+  "unpkg": "lib/maskio.min.js",
+  "className": "maskio",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "jest",
+    "build": "npx rimraf -rf lib && npm run build:rollup",
+    "build:rollup": "rollup --config"
+  },
+  "keywords": [
+    "maskio",
+    "mask",
+    "veil",
+    "seculock"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.7",
+    "@babel/preset-env": "^7.26.7",
+    "@rollup/plugin-node-resolve": "^16.0.0",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^12.1.2",
+    "@types/jest": "^29.5.14",
+    "@typescript-eslint/eslint-plugin": "^8.23.0",
+    "@typescript-eslint/parser": "^8.23.0",
+    "jest": "^29.7.0",
+    "rollup": "^4.34.4",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-dts": "^6.1.1",
+    "ts-jest": "^29.2.5",
+    "tslib": "^2.8.1",
+    "typescript": "^5.7.3"
+  }
+}

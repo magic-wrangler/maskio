@@ -1,0 +1,51 @@
+{
+  "compilerOptions": {
+    // 允许默认导入与 CommonJS 模块互操作
+    "esModuleInterop": true,
+    // 指定编译输出目录
+    "outDir": "lib",
+    // 指定如何解析模块。设置为 "node"，意味着使用 Node.js 的模块解析逻辑
+    "moduleResolution": "node",
+    // 指定使用的模块系统。设置为 "esnext"，意味着使用最新的 ECMAScript 模块系统
+    "module": "esnext",
+    // 指定 ECMAScript 目标版本。设置为 "es5"，意味着编译后的代码将遵循 ES5 规范
+    "target": "es5",
+    // 允许在项目中包含 JavaScript 文件
+    "allowJs": false,
+    // 跳过所有声明文件的类型检查。这可以加快编译速度，但可能会错过一些类型错误
+    "noUnusedLocals": false,
+    // 保留常量枚举
+    "preserveConstEnums": true,
+    // 跳过所有声明文件的类型检查。这可以加快编译速度，但可能会错过一些类型错误
+    "skipLibCheck": true,
+    // 生成源映射文件，以便在调试时更容易地跟踪到原始 TypeScript 代码
+    "sourceMap": false,
+    // 源代码会被直接嵌入到生成的 source map 文件中
+    "inlineSources": false,
+    // 生成 .d.ts 文件，该文件包含类型声明
+    "declaration": false,
+    // 启用实验性的装饰器支持
+    "experimentalDecorators": true,
+    // 启用对迭代器的向下兼容支持
+    "downlevelIteration": true,
+    // 启用严格的空值检查
+    "strictNullChecks": false,
+    // 基础 URL，用于模块解析
+    "baseUrl": ".",
+    // 指定要包含的库文件
+    "lib": [
+      "es6", // 包含 ES6 标准库
+      "dom", // 包含 DOM 类型定义
+      "es2017" // 包含 ES2017 标准库
+    ]
+  },
+  // 排除的文件或目录
+  "exclude": [
+    "__test__" // 排除测试目录
+  ],
+  // 包含的文件或目录
+  "include": [
+    "src", // 包含 src 目录下的所有文件
+    "rollup.config.mjs" // 包含 rollup.config.js 文件
+  ]
+}

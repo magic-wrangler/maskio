@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "plugin:jest/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "@typescript-eslint",
+    "jest"
+  ],
+  "ignorePatterns": "__test__",
+  "env": {
+    "jest": true
+  }
+}
