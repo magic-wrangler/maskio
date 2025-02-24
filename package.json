@@ -26,12 +26,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+"
+    "url": "git+https://github.com/magic-wrangler/maskio.git"
   },
-  "author": "",
+  "author": "magic-wrangler",
   "license": "ISC",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/magic-wrangler/maskio/issues"
   },
   "homepage": "",
   "publishConfig": {
