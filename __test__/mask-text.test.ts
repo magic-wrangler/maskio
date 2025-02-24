@@ -78,8 +78,8 @@ describe('maskIo - maskText 固定电话号码掩码', () => {
 describe('maskIo - maskText 邮箱掩码', () => {
   const emailTestCases = [
     { input: 'example@gmail.com', expected: 'exam***@gmail.com', title: '前缀大于3位：' },
-    { input: 'ab@gmail.com', expected: 'ab***@gmail.com', title: '前缀大于3位：' },
-    { input: 'abc@gmail.com', expected: '***@gmail.com', title: '大陆前缀大于3位：' },
+    { input: 'ab@gmail.com', expected: 'ab***@gmail.com', title: '前缀小于3位：' },
+    { input: 'abc@gmail.com', expected: '***@gmail.com', title: '前缀等于3位：' },
     { input: 'gmail.com', expected: '*********', title: '匹配不上' },
   ];
 
