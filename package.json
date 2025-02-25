@@ -29,7 +29,7 @@
     "url": "git+https://github.com/magic-wrangler/maskio.git"
   },
   "author": "magic-wrangler",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/magic-wrangler/maskio/issues"
   },
