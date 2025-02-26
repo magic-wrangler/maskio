@@ -1,6 +1,6 @@
 {
   "name": "maskio",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "string and object type data manipulation mask library",
   "private": false,
   "main": "lib/maskio.common.js",
