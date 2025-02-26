@@ -31,7 +31,8 @@ maskObject(source, config); // {"firstCode": "******","otherCode": {"resultCode"
 ```
 
 ## Star History
-[![Star History Chart](https://api.star-history.com/svg?repos=bofengzl/cloud-storage-upload-platform.git,magic-wrangler/maskio.git&type=Date)](https://star-history.com/#bofengzl/cloud-storage-upload-platform.git&magic-wrangler/maskio.git&Date)
+
+[![Star History Chart](https://api.star-history.com/svg?repos=magic-wrangler/maskio.git&type=Date)](https://star-history.com/#magic-wrangler/maskio.git&Date)
 
 ## Contributors
 
