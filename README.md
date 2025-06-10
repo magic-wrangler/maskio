@@ -4,7 +4,7 @@ MaskIO Is a data mask library designed for masking sensitive information. In sho
 
 ## Documentation
 
-You can find more details, API, and other docs on [maskio-dev](https://maskio-dev.vercel.app/) website.
+You can find more details, API, and other docs on [maskio-docs](https://maskio-docs.pages.dev/) website.
 
 ## Install
 
